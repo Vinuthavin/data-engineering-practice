@@ -9,3 +9,8 @@ select AVG(salary) from Employees;
 
 --Group by 
 select department, count(*) from Employees Group by department;
+
+-- top 3 condidate
+SELECT * FROM employees
+ORDER BY salary DESC
+LIMIT 3;
